@@ -57,7 +57,7 @@ elif hasattr(st.session_state.run, 'status') and st.session_state.run.status == 
                     st.markdown(message_text)
 
 # Chat input and message creation
-if prompt := st.chat_input("¿por qué no me lanzas un hueso... digo, una pregunta?"):
+if prompt := st.chat_input("¿me lanzas un hueso... digo, un destino?"):
     with st.chat_message('user'):
         st.write(prompt)
 
