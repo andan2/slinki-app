@@ -33,7 +33,7 @@ with open("ui/sidebar.md", "r", encoding="utf-8") as sidebar_file:
     sidebar_content = sidebar_file.read()
     url = "https://www.tiktok.com/@planetaandrei"
 st.sidebar.markdown(f"<a href='{url}' target='_blank'><button style='color: white; background-color: #4255f4; padding: 10px 20px; border-radius: 5px; border: none; cursor: pointer;'>Sígueme en TikTok</button></a>", unsafe_allow_html=True)
-st.sidebar.image('./imagenes/slinkibot.png')
+st.sidebar.image('Imagenes/slinkibot.png')
 st.sidebar.markdown(sidebar_content)
 
 # Initialize OpenAI assistant
